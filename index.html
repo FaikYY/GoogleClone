@@ -71,7 +71,14 @@
           <g></g>
           <g></g>
         </svg>
-        <input type="text" name="" id="google-searchbar" />
+        <!-- <input type="text" name="" id="google-searchbar" /> -->
+        <form
+          action="http://www.google.com/search"
+          method="get"
+          id="google-searchbar-form"
+        >
+          <input type="text" name="q" id="google-searchbar" />
+        </form>
         <svg
           id="mic-icon"
           version="1.1"
@@ -97,7 +104,9 @@
         </svg>
       </div>
       <span>
-        <button id="search-button">Google Search</button>
+        <button id="search-button" form="google-searchbar-form" type="submit">
+          Google Search
+        </button>
         <button id="feeling-lucky-button">I'm Feeling Lucky</button>
       </span>
     </div>

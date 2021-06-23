@@ -103,6 +103,10 @@ button {
   margin-bottom: 30px;
 }
 
+form {
+  width: 100%;
+}
+
 #google-searchbar {
   border: 1px solid rgb(220, 220, 220);
   border-left: 0;
