@@ -1,3 +1,3 @@
-# google_modern
-# patika_frontend_webdev_css_odev_2
-# patika_frontend_webdev_css_odev_2
+# Google Modern Clone 
+## A clone of modern Google Search Engine
+### Faik Yesilyaprak
