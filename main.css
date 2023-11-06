@@ -14,11 +14,15 @@ header {
   height: 7.5vh;
   font-size: 0.9rem;
   font-weight: 600;
-  color: #45484d;
   color: #45484de3;
   background-color: white;
   display: flex;
   justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: #45484de3;
 }
 
 #header-left-container {
@@ -52,7 +56,9 @@ header {
   color: #5f6368;
 }
 
-/* #5f6368 */
+#app-icon:hover {
+  background-color: red;
+}
 
 #main-container {
   background-color: white;
@@ -71,6 +77,7 @@ header {
   height: 20px;
   color: #45484d88;
   fill: #45484d88;
+  margin-right: 10px;
 }
 
 #mic-icon {
@@ -118,10 +125,6 @@ form {
 textarea:focus,
 input:focus {
   outline: none;
-}
-
-#google-searchbar:focus {
-  padding-left: 10px;
 }
 
 footer {
